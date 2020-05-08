@@ -1,0 +1,32 @@
+@media screen and (max-width:768px) {
+
+  * {
+    box-sizing:border-box;
+  }
+  
+  .top-wrapper {
+    width:100%;
+    .top-wrapper-head {
+      height:auto;
+    }
+  }
+
+  .top-wrapper-head_left {
+    position:static;
+    text-align:center;
+  }
+  
+  .top-wrapper-head_right {
+
+  }
+
+  .top-wrapper-menu {
+    position: static;
+    width: 100%;
+    background: none;
+    border-radius: 0;
+    border: none;
+    margin: 12px 0;
+    height: auto;
+  }
+}
